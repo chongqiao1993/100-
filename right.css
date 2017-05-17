@@ -1,0 +1,542 @@
+/*right-container*/
+/*右边大盒子*/
+
+.right-container{
+    width:240px;
+    margin-left:10px;
+    float:left;
+}
+.left-container{
+    float:left;
+}
+/*右侧第一行登录框*/
+.right-firstline{
+    width:240px;
+    height:140px;
+    border:1px solid #dbdbdb;
+    border-radius:7px;
+}
+.right-firstline .login{
+    height:35px;
+    width:240px;
+    line-height: 35px;
+    background: linear-gradient(#fff,#f9f9f9);
+    text-indent: 10px;
+    font-weight:500;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.right-firstline .login span{
+    color:#cc0d13;
+    padding-right: 5px;
+}
+/*登录框中间部分*/
+.login-middle{
+    color:#595959;
+    font-size:12px;
+    width:206px;
+    height:60px;
+    /*margin:12px 16px 24px 10px;*/
+    /*padding-bottom:10px;*/
+    border-bottom:1px solid #f2f2f2;
+    padding-top:14px;
+    margin-left:12px;
+}
+.login-middle .username{
+    width:48px;
+    text-align: center;
+}
+.login-middle .password{
+    width:48px;
+    text-align: center;
+}
+.login-middle>div{
+    padding-bottom: 8px;
+}
+.login-middle button{
+    width:56px;
+    height:22px;
+    background: #cb0000;
+    color:#fff;
+    border-radius: 8px;
+    border:none;
+}
+.login-middle input[type="checkbox"]{
+    /*background: linear-gradient(#ededed,#dedede);*/
+    background: #ccc;
+}
+.login-middle input[type='text']{
+    width:90px;
+    height:20px;
+    background: #f7f7f7;
+    border:none;
+    border:1px solid #dbdbdb;
+}
+.login-middle input[type='password']{
+    width:90px;
+    height:20px;
+    background: #f7f7f7;
+    border:none;
+    border:1px solid #dbdbdb;
+}
+/*登录框后部*/
+
+.login-bottom p{
+    float:left;
+}
+.login-bottom>div{
+    float:left;
+    height:34px;
+    line-height: 34px;
+    font-size:12px;
+}
+.login-bottom .bottom1{
+    padding-left:38px;
+}
+.login-bottom .bottom2{
+    padding-left:30px;
+}
+.login-bottom span{
+    display: block;
+    width:3px;
+    height:3px;
+    margin-top:14px;
+    background: red;
+    float:left;
+}
+.login-bottom p{
+    padding-left:5px;
+}
+
+/*右侧第二行图片*/
+.right-secondline{
+    width:240px;
+    height:90px;
+}
+.right-secondline img{
+    width:240px;
+    height:90px;
+    border:1px solid #dbdbdb;
+    border-radius:5px;
+}
+/*右侧第三行图片*/
+/*时钟*/
+
+.timerlist{
+    width: 240px;
+    height: 140px;
+    border-radius: 10px 10px 0px 0px;
+    border:1px solid #ccc;
+    margin-top: 16px;
+    position: relative;
+    background: url('img/homebg.png')no-repeat left bottom;
+    margin-bottom: 10px;
+    z-index: -2
+}
+.radius-list{
+    width: 62px;
+    height: 62px;
+    border:5px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 66px;
+    top: 16px;
+    z-index: -1;
+}
+.clock{
+    width: 62px;
+    height: 62px;
+    background: red;
+    position: absolute;
+    left: 71px;
+    top:21px;
+}
+.second{
+    background: url('img/S.png')no-repeat 11px -4px;
+    z-index: 100;
+}
+.minute{
+    background: url('img/M.png')no-repeat 29px 0px;
+}
+.hour{
+    background: url('img/H.png')no-repeat 26px 0px;
+}
+
+/*右侧第四行图片*/
+.right-fourthline{
+    width:240px;
+    height:100px;
+    margin-top:10px;
+
+}
+.right-fourthline img{
+    width:240px;
+    height:100px;
+    border-top-left-radius:7px;
+    border-bottom-left-radius:7px;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+}
+
+/*右侧第五行*/
+
+.right-fifthline{
+    width:240px;
+    height:240px;
+    margin-top:10px;
+    border-radius:4px;
+    border:1px solid #dbdbdb;
+}
+.right-fifthline-title{
+    width:224px;
+    font-size:12px;
+    padding:10px;
+}
+.right-fifthline-title span{
+    float:left;
+    margin:3px;
+}
+.right-fifthline-title .coupons{
+    color:#cc0d13;
+}
+.right-fifthline-title img{
+    margin-left:70px;
+}
+
+/*抢券选项卡*/
+
+.right-fifthline-title2{
+    height:24px;
+    width:202px;
+    margin:0 auto;
+    font-size: 12px;
+    cursor: pointer;
+}
+.right-fifthline-title2 li{
+    float: left;
+    border-top:1px solid #dbdbdb;
+    border-right:1px solid #dbdbdb;
+    width:40px;
+    height:24px;
+    text-align: center;
+    line-height: 24px;
+    padding:0 10px;
+    padding-left:15px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    /*border-bottom: 1px solid #dbdbdb;*/
+    background: #f8f8f8;
+    margin-top:1px;
+}
+
+.right-fifthline-title2 span{
+    float:left;
+    display: inline-block;
+}
+
+.right-fifthline-title2 .jiao{
+    width:0;
+    height:0;
+    display: block;
+    border:5px solid #dbdbdb;
+    border-bottom:5px solid transparent;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    float:left;
+    margin-top:10px;
+    margin-left:3px;
+}
+.right-fifthline-title2 .chuxian{
+    border-top-color:red;
+}
+.right-fifthline-title2 .lefttitle1{
+    background: #fff;
+    border-left:1px solid #dbdbdb;
+    border-bottom: #fff;
+}
+.right-fifthline-content{
+    height:162px;
+    width:211px;
+    font-size: 12px;
+    margin:0 auto;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 1px;
+}
+.right-fifthline-content p{
+    color:#ccc;
+    padding-left:38px;
+    padding-top:5px;
+}
+.right-fifthline-content .prov{
+    padding-left: 64px;
+    padding-right: 15px;
+}
+.right-fifthline-content ul li span.perc{
+    color:#cc0d13;
+    padding-left: 100px;
+    padding-right: 12px;
+}
+.right-fifthline-content ul li{
+    background: url(img/dot.gif) no-repeat 0 12px;
+    padding-left:10px;
+    margin:0 auto;
+    border-top: 1px dotted #dbdbdb;
+    padding:6px;
+}
+.right-fifthline-content ul li h7{
+    padding-left: 2px;
+}
+.hidden1,.hidden2{
+    display: none;
+}
+.hidden1 ul li span.perc{
+    padding-left:88px;
+}
+
+    /*右侧第六行*/
+.right-sixthline{
+    width:240px;
+    height:380px;
+    border:1px solid #dbdbdb;
+    border-radius: 4px;
+    margin-top:10px;
+    font-size:12px;
+
+}
+.right-sixthline>div{
+    height:86px;
+}
+.right-sixthline>div:nth-child(1){
+    width:216px;
+    height:82px;
+    margin:0 auto;
+    border-bottom:1px dotted #dbdbdb;
+}
+.right-sixthline>div:nth-child(2){
+    width:216px;
+    margin:0 auto;
+    border-bottom:1px dotted #dbdbdb;
+    padding-top:8px;
+}
+.right-sixthline>div:nth-child(3){
+    width:216px;
+    margin:0 auto;
+    border-bottom:1px dotted #dbdbdb;
+    padding-top:8px;
+}
+.right-sixthline>div:nth-child(4){
+    width:216px;
+    margin:0 auto;
+    border-bottom:1px dotted #dbdbdb;
+    padding-top:8px;
+}
+.right-sixthline img{
+    float: left;
+    border:1px solid #ccc;
+    padding:3px;
+}
+.right-sixthline h7{
+    color:#cc0d13;
+    font-size:12px;
+    padding-left:10px;
+
+}
+.right-sixthline p{
+    font-size:12px;
+    color:#666;
+}
+.sixthline-one-text span{
+    color:#ccc;
+    padding-left:10px;
+}
+/*右侧第七行*/
+.right-seventhline{
+    width:240px;
+    height:180px;
+    margin-top:10px;
+    border-radius:4px;
+    border:1px solid #dbdbdb;
+}
+.right-seventhline-title{
+    width:240px;
+    font-size:12px;
+    padding:10px;
+}
+.right-seventhline-title span{
+    float:left;
+    margin:3px;
+}
+.right-seventhline-title .coupons{
+    color:#cc0d13;
+}
+.right-seventhline-title img{
+    margin-left:60px;
+}
+.right-seventhline>img{
+    display: block;
+    margin:0 auto;
+}
+.right-seventhline p{
+    font-size:12px;
+    color:#333;
+    padding-left:12px;
+    line-height: 26px;
+}
+/*右侧第八行*/
+.right-eighthline{
+    width:240px;
+    height:350px;
+    margin-top:10px;
+    border-radius:4px;
+    border:1px solid #dbdbdb;
+}
+.right-eighthline-title{
+    width:240px;
+    font-size:12px;
+    padding:10px;
+}
+.right-eighthline-title span{
+    float:left;
+    margin:3px;
+}
+.right-eighthline-title .coupons{
+    color:#cc0d13;
+}
+.right-eighthline-title img{
+    margin-left:98px;
+}
+.right-eighthline-one{
+    width:216px;
+    height:82px;
+    margin:0 auto;
+    border-bottom:1px dotted #dbdbdb;
+}
+
+.right-eighthline-one img{
+    float: left;
+    border:1px solid #ccc;
+    padding:3px;
+}
+.right-eighthline-one h7{
+    color:#cc0d13;
+    font-size:12px;
+    padding-left:10px;
+
+}
+.right-eighthline-one p{
+    font-size:12px;
+    color:#666;
+}
+.eighthline-one-text span{
+    color:#ccc;
+    padding-left:10px;
+}
+.right-eighthline ul{
+    width:216px;
+    margin:0 auto;
+}
+.right-eighthline ul li{
+    list-style:none;
+    color:red;
+    font-size:12px;
+    border-bottom:1px dotted #dbdbdb;
+    padding:5px;
+    display: block;
+    width:190px;
+    margin:0 auto;
+    background: url(img/dot.gif) no-repeat 0 12px;
+    padding-left: 10px;
+}
+.right-eighthline ul li:nth-last-child(1){
+    border-bottom: none;
+}
+.right-eighthline ul li h7{
+    color:#333;
+}
+.right-eighthline ul li span{
+    color:#c3c3c3;
+}
+/*第九行*/
+
+.right-ninthline{
+    width:240px;
+    height:400px;
+    margin-top:10px;
+    border-radius:4px;
+    border:1px solid #dbdbdb;
+}
+.right-ninthline-title{
+    width:240px;
+    font-size:12px;
+    padding:10px;
+}
+.right-ninthline-title span{
+    float:left;
+    margin:3px;
+}
+.right-ninthline-title .coupons{
+    color:#cc0d13;
+}
+.right-ninthline-title img{
+    margin-left:60px;
+}
+
+.right-ninthline-one{
+    width:216px;
+    *width:200px;
+    height:90px;
+    *height:90px;
+    margin:0 auto;
+    *overflow: hidden;
+}
+
+.right-ninthline-one img{
+    float: left;
+    border:1px solid #ccc;
+    padding:3px;
+    margin-right:10px;
+}
+.right-ninthline-one h7{
+    color:#cc0d13;
+    font-size:12px;
+    *font-size:12px;
+}
+.right-ninthline-one p{
+    font-size:12px;
+    color:#666;
+    *font-size:12px;
+}
+.ninthline-one-text span{
+    color:#ccc;
+}
+.right-ninthline-one>div{
+    float:left;
+    width:96px;
+    margin-right:10px;
+    *margin-right:0px;
+    *width:100px;
+}
+.right-ninthline ul{
+    width:216px;
+    margin:0 auto;
+    margin-top:-8px;
+}
+.right-ninthline ul li{
+    list-style:none;
+    color:red;
+    font-size:12px;
+    border-top:1px dotted #dbdbdb;
+    padding:6px;
+    display: block;
+    width:190px;
+    margin:0 auto;
+    background: url(img/dot.gif) no-repeat 0 12px;
+    padding-left: 10px;
+}
+
+.right-ninthline ul li h7{
+    color:#333;
+}
+.right-ninthline ul li span{
+    color:#c3c3c3;
+}

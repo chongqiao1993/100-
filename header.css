@@ -1,0 +1,266 @@
+*{
+    padding:0;
+    margin:0
+}
+li{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+/*toppic*/
+/*最顶层图片*/
+
+.toppic{
+    background: #a500ff;
+    width:100%;
+    height:80px;
+    position: relative;
+}
+.toppic img{
+    width:1138px;
+    height:80px;
+    margin:0 auto;
+    display: block;
+}
+.toppic p{
+    right: 113px;
+    top: 16px;
+    font-size: 23px;
+    padding: 0 8px;
+    position: absolute;
+    cursor: pointer;
+}
+/*top*/
+/*城市切换*/
+.top{
+    height:30px;
+    width:960px;
+    margin:0 auto;
+    line-height:30px;
+    font-size:12px;
+    background: linear-gradient(#fefefe,#f6f6f6);
+    padding-left:23px;
+    color:#666;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.top button{
+    margin:0px 3px;
+    color:#999;
+    /*padding:2px;*/
+    cursor:pointer;
+    background: #fff;
+    border-radius: 3px;
+    width:40px;
+    height:22px;
+    line-height: 22px;
+    text-align: center;
+    border:1px solid #Eee;
+    box-shadow: 2px 2px #e7e7e7;
+}
+.top button.current{
+    color:red;
+}
+.top-right{
+    float:right;
+    padding-right:35px;
+}
+.top-right img{
+    width:18px;
+    height:16px;
+    vertical-align:middle;
+}
+.clearfix:after{
+    clear:both;
+    content:'';
+    display: block;
+}
+.clearfix{
+    zoom:1;
+}
+
+
+.main-one{
+    width: 960px;
+    height: 100px;
+    border-radius: 20px;
+    padding: 2px 2px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.main-one > ul > div{
+    float: left;
+}
+.main-one > ul > .logo{
+    margin-top: 20px;
+}
+.main-one span img{
+    margin-top: -15px;
+    width:188px;
+    padding:7px 17px;
+
+}
+.main-one  > ul  li{
+    width: 70px;
+    float: left;
+    margin-left:3px;
+    cursor: pointer;
+    margin-top: 5px;
+    text-align: center;
+    padding: 2px;
+    background:url("img/nav_bg.png")no-repeat;
+    height: 70px;
+    padding-top: 52px;
+    box-sizing: border-box !important;
+}
+.rowlist{
+    margin: 0 auto;
+    width: 954px;
+    height: 80px;
+    box-sizing: border-box;
+}
+.main-one  > ul  li  > p{
+    margin-top: 2px;
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+
+/*scrollnav*/
+/*切换input框盒子*/
+
+.scrollnav{
+    width:960px;
+    height:116px;
+    border:1px solid #dbdbdb;
+    border-radius:10px;
+    margin:0 auto;
+    position: relative;
+    background: #f6f6f6;
+}
+.nav-title{
+    width:410px;
+    height:28px;
+    margin-top:-12px;
+    margin-left:227px;
+    background: #f9f9f9;
+}
+.nav-title p{
+    font-size:14px;
+    float:left;
+    height:28px;
+    line-height:28px;
+    text-align:center;
+    width:80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border:1px solid #eec8b8;
+    border-bottom:none;
+    cursor:pointer;
+    background:#fbfbfb;
+
+}
+.nav-title p.current{
+    color:#fff;
+    background:#e21c01;
+}
+.scroll-red{
+    height:66px;
+    border-radius:10px;
+    background: #e21c01;
+
+}
+.scrollnav .pic{
+    height:144px;
+    width:156px;
+    background: url('images/14.png') no-repeat;
+    position: absolute;
+    left:34px;
+    top:0;
+}
+.scroll-input input{
+    color:#ea7a7a;
+    float:left;
+    width:406px;
+    text-indent:14px;
+    margin-left:228px;
+    border-radius:5px;
+    border:none;
+    margin-top:20px;
+    height:20px;
+    background: #fff1ef;
+    display: none;
+}
+.scroll-input input.current{
+    display: block;
+}
+.scroll-red img{
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+    height:24px;
+    cursor:pointer;
+}
+.scroll-red p{
+    float:left;
+    font-size:12px;
+    color:#fff;
+    padding-top:14px;
+    margin-left:16px;
+}
+
+/*scroll-update*/
+
+.scroll-update{
+    padding-left:230px;
+    font-size:10px;
+}
+.scroll-update .update {
+    float:left;
+    margin-top:12px;
+}
+.scroll-update .xuan{
+    color:#d30703;
+    float:left;
+}
+.scroll-update .five{
+    color:#999;
+    float:left;
+    margin-left:10px;
+}
+.scroll-update .article{
+    margin-left:10px;
+}
+.scroll-update .updown{
+    float:left;
+    margin-left:26px;
+    margin-top:12px;
+    position:relative;
+}
+.scroll-update .updown img{
+    cursor:pointer;
+}
+.scroll-update .updown .up{
+    position:absolute;
+    left:0;
+    top:0;
+}
+.scroll-update .box{
+    height:22px;
+    margin-left:10px;
+}
+.scroll-update .inner-scroll{
+    width:320px;
+    height:22px;
+    overflow:hidden;
+    margin-top:10px;
+    float:left;
+}
+
+
+
+
+
+
+
